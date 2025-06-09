@@ -7,9 +7,9 @@ body {
 .container-left {
     float: left;
     background-color: #6156db;
+    height: 480px;
     width: 400px;
-    height: 420px;
-    margin: 100px 0 0 100px;
+    margin: 100px 0 0 280px;
     padding: 10px;
 }
 
@@ -22,7 +22,7 @@ body {
 }
 
 .container-left p {
-    margin-top: 80px;
+    margin-top:45px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     text-align: center;
@@ -31,10 +31,10 @@ body {
 
 .container-left button {
     margin-left: 90px;
-    margin-top: 30px;
+    margin-top: 35px;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-    background-color: #6156db;
+    background-color: #782AE8;
     border-radius: 20px;
     border: solid 2px white;
     padding: 10px;
@@ -45,11 +45,11 @@ body {
 
 
 .container-right {
-    background-color: #6156db;
+    background-color: #A577E8;
     height: 480px;
     width: 400px;
     float: right;
-    margin: 100px 100px 0 0;
+    margin: 100px 280px 0 0;
     padding: 10px;
 }
 
@@ -68,13 +68,13 @@ body {
 }
 
 .container-right img {
-    margin: 5px;
+    margin: 15px 5px 0 0;
 }
 
 .container-right p {
     margin-top: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 15px;
     text-align: center;
     color: white;
 }
@@ -84,11 +84,11 @@ body {
 }
 
 .container-right button {
-    margin-left: 100px;
+    margin-left: 95px;
     margin-top: 30px;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-    background-color: #6156db;
+    background-color: #E82AD1;
     border-radius: 20px;
     border: solid 2px white;
     padding: 10px;
@@ -100,10 +100,10 @@ body {
 
 .container-right2 {
     font-family: Arial, Helvetica, sans-serif;
-    margin: 100px 100px 0 0;
+    margin: 100px 280px 0 0;
     float: right;
-    background-color: #6156db;
-    height: 500px;
+    background-color: #2A57E8;
+    height: 480px;
     width: 400px;
     padding: 10px;
 }
@@ -127,13 +127,22 @@ body {
 
 .group input {
     width: 65%;
+    height: 25px;
     border-radius: 50px;
     margin-top: 5px;
     color: black;
     border: none;
 }
 
-.button-submit {
-    margin-top: 40px;
-    margin-left: 155px;
+
+.btn-custom {
+    margin-top: 25px;
+    margin-left: 130px;
+    background-color: #782AE8;
+    color: white;
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
 }
