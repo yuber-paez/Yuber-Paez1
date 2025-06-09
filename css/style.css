@@ -30,7 +30,7 @@ body {
 }
 
 .container-left button {
-    margin-left: 100px;
+    margin-left: 90px;
     margin-top: 30px;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
@@ -96,3 +96,44 @@ body {
 }
 
 
+/* Estilos Singup */
+
+.container-right2 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 100px 100px 0 0;
+    float: right;
+    background-color: #6156db;
+    height: 500px;
+    width: 400px;
+    padding: 10px;
+}
+
+.container-right2 h1 {
+    font-size: 30px;
+    text-align: center;
+    margin: 70px 0 50px;
+    color: white;
+}
+
+.group{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.group label {
+    color: white;
+}
+
+.group input {
+    width: 65%;
+    border-radius: 50px;
+    margin-top: 5px;
+    color: black;
+    border: none;
+}
+
+.button-submit {
+    margin-top: 40px;
+    margin-left: 155px;
+}
